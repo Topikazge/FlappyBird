@@ -30,7 +30,7 @@ public class LevelManager : MonoBehaviour
         _startWindow.SetActive(false);
         _scoreWindow.SetActive(true);
         _pipeFacade.BeginSpawn();
-        _birdForce.StartMove();
+        _bird.StartMove();
         _windowStart.SetActive(false);
         Time.timeScale = 1;
     }
@@ -42,7 +42,7 @@ public class LevelManager : MonoBehaviour
         _scoreWindow.SetActive(false);
         _pipeFacade.DeletePipes();
         _birdObject.transform.position = _startCoordBird.position;
-        _birdForce.ResetParameters();
+        _bird.ResetParameters();
         _startWindow.SetActive(true);
     }
 
@@ -51,7 +51,7 @@ public class LevelManager : MonoBehaviour
         _windowStart.SetActive(false);
         _scoreWindow.SetActive(false);
         _pipeFacade.StopSpawn();
-        _birdForce.StopMove();
+        _bird.StopMove();
         _dieWindow.SetActive(true);
         Time.timeScale = 0;
     }

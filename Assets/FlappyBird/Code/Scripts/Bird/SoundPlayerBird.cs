@@ -3,25 +3,36 @@ using UnityEngine;
 public class SoundPlayerBird : MonoBehaviour
 {
     [SerializeField] private AudioClip _flap;
-    [SerializeField] private AudioSource _pipePassage;
+    [SerializeField] private AudioClip _fall;
+    [SerializeField] private AudioClip _pipePassage;
 
     private AudioSource _audioSource;
 
 
     private void Start()
     {
-        GetComponent<Bird>().ScoreChange += OnPlayChangeScore;
-        GetComponent<BirdForce>().Force += Flap;
         _audioSource = GetComponent<AudioSource>();
+        Bird bird = GetComponent<Bird>();
+        bird.ScoreChange += IncreaseScore;
+        bird.BirdDie += Fall;
+        GetComponent<BirdForce>().Force += Flap;
     }
 
     public void Flap()
     {
-        _audioSource.Play();
+        _audioSource.PlayOneShot(_flap);
+    }
+    public void Fall()
+    {
+        _audioSource.PlayOneShot(_fall);
+    }
+    public void IncreaseScore()
+    {
+        _audioSource.PlayOneShot(_pipePassage);
     }
 
-    public void OnPlayChangeScore()
+    public void StopPlayback()
     {
-        _pipePassage.Play();
+        _audioSource.Stop();
     }
 }
