@@ -65,10 +65,4 @@ public class BirdForce : MonoBehaviour
         _canDown = state;
         _rigidBody2d.simulated = state;
     }
-
-    private void Foddrce()
-    {
-
-    }
-
 }

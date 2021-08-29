@@ -10,17 +10,13 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameObject _birdObject;
     [SerializeField] private PipeFacade _pipeFacade;
     [SerializeField] private ScorePassedPipes _score;
-    private BirdForce _birdForce;
     private Bird _bird;
 
     private void Awake()
     {
-        _birdForce = _birdObject.GetComponent<BirdForce>();
         _bird = _birdObject.GetComponent<Bird>();
-
         _birdObject.transform.position = _startCoordBird.position;
         _bird.BirdDie += End;
-
         _startWindow.SetActive(true);
         Time.timeScale = 0;
     }
