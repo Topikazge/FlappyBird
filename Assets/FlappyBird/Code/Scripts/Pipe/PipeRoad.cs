@@ -17,7 +17,7 @@ public class PipeRoad : MonoBehaviour
         if (pipe is Pipe)
         {
             _pipesOnRoad.Add(pipe);
-            pipe.transform.SetParent(transform);
+            pipe.InteractTransform.SetParent(transform);
         }
     }
 
