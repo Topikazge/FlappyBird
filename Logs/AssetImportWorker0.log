@@ -15,11 +15,11 @@ C:/Users/Гррег/Documents/GitHub/FlappyBird
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61235
+57541
 Successfully changed project path to: C:/Users/Гррег/Documents/GitHub/FlappyBird
 C:/Users/Гррег/Documents/GitHub/FlappyBird
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 55.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,128 +35,82 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003402 seconds.
+Registered in 0.003212 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 55.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.334 seconds
+- Completed reload, in  3.861 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002500 seconds.
+Registered in 0.001687 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 85.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.396 seconds
+- Completed reload, in  1.925 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1843 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.7 MB.
-System memory in use after: 87.6 MB.
+System memory in use after: 87.7 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2286.
-Total: 4.826000 ms (FindLiveObjects: 0.507900 ms CreateObjectMapping: 0.143100 ms MarkObjects: 3.924900 ms  DeleteObjects: 0.247200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/FlappyBird/Code/Scripts/InteractableObjects
-  artifactKey: Guid(9c7d6d85c7f6197479781441f4271885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlappyBird/Code/Scripts/InteractableObjects using Guid(9c7d6d85c7f6197479781441f4271885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb85c7149116afd965dfd0c55106f66') in 0.062865 seconds
-  Import took 0.066788 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2288.
+Total: 4.831900 ms (FindLiveObjects: 0.531500 ms CreateObjectMapping: 0.201100 ms MarkObjects: 3.856900 ms  DeleteObjects: 0.239800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.765059 seconds.
-  path: Assets/FlappyBird/Code/Scripts/InteractableObjects/NewInterface.cs
-  artifactKey: Guid(89b009261c047a74cbface95db4093cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlappyBird/Code/Scripts/InteractableObjects/NewInterface.cs using Guid(89b009261c047a74cbface95db4093cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85329977e2c1651d4dc66ed6fee87bfe') in 0.190352 seconds
-  Import took 0.194066 seconds .
+  path: Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigitBody2D.cs
+  artifactKey: Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigitBody2D.cs using Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265e3c03a163448787b2168e1969b404') in 0.975944 seconds
+  Import took 1.032113 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001602 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.576 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.2 MB.
-System memory in use after: 86.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2290.
-Total: 2.647800 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.057200 ms MarkObjects: 2.175400 ms  DeleteObjects: 0.148600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022798 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.680 seconds
-Platform modules already initialized, skipping
-Script is not up to date after domain reload: guid(60bde4eac4a54b64b953ed328ea8c047) path("Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableObject.cs") state(2)
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.2 MB.
-System memory in use after: 86.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2294.
-Total: 2.661000 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.055900 ms MarkObjects: 2.217200 ms  DeleteObjects: 0.142100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001620 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.204 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.3 MB.
-System memory in use after: 86.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2299.
-Total: 2.657400 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.056200 ms MarkObjects: 2.124000 ms  DeleteObjects: 0.154900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 82.975517 seconds.
-  path: Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableObject.cs
-  artifactKey: Guid(60bde4eac4a54b64b953ed328ea8c047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableObject.cs using Guid(60bde4eac4a54b64b953ed328ea8c047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7f2ed0e2c8552cffe850566fb1e0bf') in 0.012188 seconds
-  Import took 0.082846 seconds .
+  Time since last request: 322.293465 seconds.
+  path: Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs
+  artifactKey: Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs using Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e33325ece1cac1b85a9097114c8aa4') in 0.010824 seconds
+  Import took 0.033864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.752915 seconds.
+  path: Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs
+  artifactKey: Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs using Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b58313cc92c125f50f3a4b667eede2') in 0.005305 seconds
+  Import took 0.041811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.878933 seconds.
+  path: Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs
+  artifactKey: Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs using Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf1e499ae59f533eb4e8f0f1c83fc70') in 0.005396 seconds
+  Import took 0.015420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.572319 seconds.
+  path: Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs
+  artifactKey: Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs using Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8fc1b60bb241016b090fe6395c0561') in 0.004962 seconds
+  Import took 0.027916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.614909 seconds.
+  path: Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs
+  artifactKey: Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlappyBird/Code/Scripts/InteractableObjects/InteractableRigidBody2D.cs using Guid(28cfb51a6ed70464cacd1b56e9def0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af90502855df543cd269ec725cdfc39') in 0.005462 seconds
+  Import took 0.020687 seconds .
 
