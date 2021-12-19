@@ -13,6 +13,7 @@ public class BirdForce : MonoBehaviour
     private Quaternion _rotationZero;
     private bool _canDown;
     private InteractableRigidBody2D _rigidBody;
+    private InteractableTransform _transform;
 
     public event Action Force;
     public event Action Fall;
@@ -20,6 +21,7 @@ public class BirdForce : MonoBehaviour
     private void Start()
     {
         _rigidBody = GetComponent<InteractableRigidBody2D>();
+        _transform = GetComponent<InteractableTransform>();
         SwitchStateMove(false);
         _rigidBody.Velocity(Vector2.zero);
         _rotationZero = Quaternion.Euler(0, 0, 0);
@@ -35,7 +37,7 @@ public class BirdForce : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 _rigidBody.Velocity(Vector2.zero);
-                transform.rotation = _maxRotation;
+                _transform.Rotation(_maxRotation);
                 _rigidBody.AddForce(Vector2.up * _tapForce, ForceMode2D.Force);
                 Force?.Invoke();
             }        
@@ -56,7 +58,7 @@ public class BirdForce : MonoBehaviour
     public void ResetParameters()
     {
         SwitchStateMove(false);
-        transform.rotation = _rotationZero;
+        _transform.Rotation(_rotationZero);
         _rigidBody.Velocity( Vector2.zero);
     }
 

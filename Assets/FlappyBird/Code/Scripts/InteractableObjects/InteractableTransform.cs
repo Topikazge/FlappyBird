@@ -28,10 +28,18 @@ public class InteractableTransform : MonoBehaviour
         transform.SetParent(@object);
     }
 
+    public void Rotation(Quaternion quaternion)
+    {
+        if (quaternion == null)
+            return;
+        transform.rotation = quaternion;
+    }
+
     private void SetPosition(Vector2 position)
     {
         if (position == null)
             return;
         transform.position = position;
     }
+
 }

@@ -6,10 +6,9 @@ public class PipeMove : MonoBehaviour
     [SerializeField] private float _vectorX;
     private InteractableTransform _transform;
 
-    public void SetMove(float vectorX, float speed)
+    private void Start()
     {
-        _speed = speed;
-        _vectorX = vectorX;
+        _transform = GetComponent<InteractableTransform>();
     }
 
     private void Update()
@@ -18,4 +17,9 @@ public class PipeMove : MonoBehaviour
         _transform.Translate(_movement, Space.World);
     }
 
+    public void SetMove(float vectorX, float speed)
+    {
+        _speed = speed;
+        _vectorX = vectorX;
+    }
 }

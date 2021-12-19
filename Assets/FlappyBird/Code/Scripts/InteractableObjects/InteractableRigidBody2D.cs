@@ -23,14 +23,14 @@ public class InteractableRigidBody2D : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    public  void Velocity(Vector2 vector)
+    public void Velocity(Vector2 vector)
     {
         if (vector == null)
             return;
         _rigidbody.velocity = vector;
     }
 
-    public void AddForce(Vector2 vector,ForceMode2D force = ForceMode2D.Force)
+    public void AddForce(Vector2 vector, ForceMode2D force = ForceMode2D.Force)
     {
         if (vector == null)
             return;
